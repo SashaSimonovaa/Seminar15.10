@@ -95,7 +95,7 @@ while respect < 100 and (den_size > 0 and health > 0 and respect > 0 and weight 
     # Ночь
     print(' ', '>>>>> НОЧЬ', ' ', sep='\n')
     den_size, health, respect, weight = Night(den_size, health, respect, weight)
-    #:)
+    #:) ujcgjlb
 
 Parametrs()
 if respect > 100:
