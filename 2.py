@@ -13,6 +13,7 @@ def f(len, gl):
         f(len//3, gl-1)
 
 turtle.shape("turtle")
+turtle.speed(1000)
 
 for i in range(3):
     f(200, 3)
