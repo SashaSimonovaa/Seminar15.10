@@ -5,10 +5,8 @@ def Parametrs():
     print('> Параметры:', f'Здоровье (З) = {health}', f'Длина норы (Д) = {den_size}', f'Уважение (У) = {respect}',
           f'Вес (В) = {weight}', sep='\n', end='\n\n')
 
-
 def Night(den_size, health, respect, weight):
     return den_size - 2, health + 20, respect - 2, weight - 5
-
 
 def Dig(x):
     if x == '1':
@@ -17,7 +15,6 @@ def Dig(x):
     else:
         print(' ', '> Длина норы увеличилась на 2, здоровье понизилось на 10', sep='\n')
         return den_size + 2, health - 10
-
 
 def Eat(x):
     if x == '1':
@@ -29,7 +26,6 @@ def Eat(x):
     elif x == '2' and respect < 30:
         print(' ', '> Вас не пустили на луг. Здоровье понизилось на 30', sep='\n')
         return health - 30, weight
-
 
 def Fight(x):
     if x == '1':
@@ -99,6 +95,7 @@ while respect < 100 and (den_size > 0 and health > 0 and respect > 0 and weight 
     # Ночь
     print(' ', '>>>>> НОЧЬ', ' ', sep='\n')
     den_size, health, respect, weight = Night(den_size, health, respect, weight)
+    #:)
 
 Parametrs()
 if respect > 100:
