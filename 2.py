@@ -1,2 +1,2 @@
-a = 45 + 578
-print(a)
+import turtle
+
